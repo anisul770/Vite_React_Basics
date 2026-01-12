@@ -2,6 +2,7 @@
 import Button from './components/Button';
 import Alert from './components/Alert';
 import PlayWithButton from './components/PlayWithButton';
+import Person from './components/Person';
 
 function App() {
   
@@ -12,7 +13,8 @@ function App() {
       <Button handleClick={handleClick} color="success">
         My Button
       </Button> */}
-      <PlayWithButton/>
+      {/* <PlayWithButton/> */}
+      <Person/>
     </>
   )
 }
