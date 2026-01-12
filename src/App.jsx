@@ -1,22 +1,29 @@
-// import './App.css'
-import Button from './components/Button';
-import Alert from './components/Alert';
-import PlayWithButton from './components/PlayWithButton';
-import Person from './components/Person';
+import APIFetch from './components/APIFetch';
 
 function App() {
-  
+  // const [cartItems, setCartItems] = useState([
+  //   "Product 1", 
+  //   "Product 2",
+  //   "Product 3",
+  //   "Product 4",
+  // ]);
+
+  // const handleProductRemove = (item) => {
+  //   setCartItems(cartItems.filter(product => product != item));
+  // }
 
   return (
-    <>
-      {/* <Alert color = "info" />
-      <Button handleClick={handleClick} color="success">
-        My Button
-      </Button> */}
-      {/* <PlayWithButton/> */}
-      <Person/>
-    </>
-  )
-}
+    <div className='m-5'>
+      {/* <Navbar cartItemsCount={cartItems.length} />
+      <Cart 
+        cartItems= {cartItems} 
+        onClear={() => setCartItems([])} 
+        onRemove={handleProductRemove}
+      /> */}
+      {/* <Effect/> */}
+      <APIFetch/>
+    </div>
+  );
+};
 
 export default App

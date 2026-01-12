@@ -7,4 +7,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>,
+  // StrictMode render every component 2
+  // times one for checking early stage 
+  // error and then other for showing 
+  // the result in frontend
 )
